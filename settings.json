@@ -1,0 +1,30 @@
+{
+  "version": "1.8.8",
+  "server-ip": "0.0.0.0",   
+  "port": 25565,   
+  "autorun": "say Hello",    
+  "maxRetries": 3,
+  "retry-delay": 5000,
+  "chat-cooldown": 2000,
+  "action-interval": 100,
+  "safe-mode": false,
+  "allowed-commands": [
+    "help",
+    "time",
+    "weather",
+    "gamemode",
+    "tp",
+    "give",
+    "say",
+    "execute",
+    "gamerule",
+    "setblock",
+    "fill"
+  ],
+  "restricted-commands": [
+    "kill",
+    "ban",
+    "op",
+    "deop"
+  ]
+}

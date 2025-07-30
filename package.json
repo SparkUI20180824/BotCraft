@@ -1,0 +1,79 @@
+{
+  "name": "botcraft",
+  "version": "1.0.0",
+  "description": "An intelligent Minecraft bot framework with AI capabilities for Java Edition servers",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js",
+    "test": "echo \"Error: no tests specified\" && exit 1"
+  },
+  "keywords": [
+    "minecraft",
+    "bot",
+    "ai",
+    "automation",
+    "game",
+    "javascript"
+  ],
+  "author": {
+    "name": "HEDex",
+    "email": "ckclcz@outlook.com",
+    "url": "https://github.com/SparkUI20180824"
+  },
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SparkUI20180824/BotCraft.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SparkUI20180824/BotCraft/issues"
+  },
+  "homepage": "https://github.com/SparkUI20180824/BotCraft#readme",
+  "dependencies": {
+    "mineflayer": "^4.8.0",
+    "minecraft-data": "^3.0.0",
+    "vec3": "^0.1.7",
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "prismarine-world": "^1.3.0",
+    "prismarine-physics": "^1.2.0",
+    "prismarine-pathfinder": "^1.3.0",
+    "prismarine-chat": "^1.1.0",
+    "prismarine-block": "^1.0.0",
+    "prismarine-entity": "^3.3.0",
+    "prismarine-item": "^1.1.0",
+    "prismarine-nbt": "^2.1.0",
+    "prismarine-recipe": "^1.1.0",
+    "prismarine-windows": "^1.1.0",
+    "prismarine-schematic": "^1.2.0",
+    "prismarine-tilemap": "^1.0.0",
+    "prismarine-village": "^1.0.0",
+    "prismarine-biome": "^1.0.0",
+    "prismarine-registry": "^1.0.0",
+    "prismarine-provider-anvil": "^2.0.0",
+    "prismarine-provider-leveldb": "^1.0.0",
+    "prismarine-provider-region": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "eslint": "^8.56.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1"
+  },
+  "engines": {
+    "node": ">=17.0.0 <=24.x",
+    "npm": ">=9.0.0"
+  },
+  "files": [
+    "main.js",
+    "ai_bot/",
+    "skin/",
+    "*.json"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

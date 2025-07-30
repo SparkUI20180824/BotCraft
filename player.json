@@ -1,0 +1,28 @@
+{
+  "username": "DaquavisMC",
+  "skin-model": "steve",
+  "skin-file": "dream.png",
+  "behaviors": {
+    "chatty": true,
+    "active": true,
+    "explore": true,
+    "build": true,
+    "mine": true,
+    "fight": true,
+    "social": true
+  },
+  "restrictions": {
+    "no-harm-players": true,
+    "no-griefing": false,
+    "no-stealing": true,
+    "ask-before-tp": true,
+    "no-op-abuse": true
+  },
+  "personality": {
+    "friendliness": 0.8,
+    "curiosity": 0.9,
+    "aggressiveness": 0.3,
+    "talkativeness": 0.7,
+    "creativity": 0.6
+  }
+}

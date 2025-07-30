@@ -1,0 +1,9 @@
+{
+  "ai-api-key": "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",  
+  "ai-api-url": "https://openrouter.ai/api/v1",    
+  "ai-model": "deepseek/deepseek-chat-v3-0324:free",  
+  "ai-temperature": 0.7,
+  "ai-max-tokens": 150,
+  "ai-presence-penalty": 0.5,
+  "ai-frequency-penalty": 0.5
+}
